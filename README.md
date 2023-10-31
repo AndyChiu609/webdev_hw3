@@ -1,8 +1,13 @@
 # Web Programming HW#3
 
-## Run the app (後面有說明進階條件實作內容)
+## Run the app 
 
 Follow the instructions in this section to run the app locally.
+
+
+### 特別注意事項
+
+我有把作業扔給其他正在修課的人測試，有人反映有些dependencies會需要額外去下載，所以如果跑起來時有遇到類似的狀況，先說聲不好意思，可能是環境轉移問題，有可能要請各位測試者自己 `yarn add` 所需的組件，像是dotenv等等，再來，有測試過的同學反應只有在Railway能migrate，或是只有使用Railway時才跑得動，所以要是有連接db相關問題，非常建議就直接去Railway那邊setup一個db，非常快非常簡單而且不會耗你超過10秒鐘! 還不用創帳號! 非常感謝!!
 
 ### 1. setup  `.env` (Note that it's .env not .env.local)
 
